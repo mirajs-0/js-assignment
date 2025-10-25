@@ -15,7 +15,6 @@ convertBtn.onclick = function () {
     // Convert Celsius to Kelvin
     var kelvin = parseFloat(celsius) + 273.15;
 
-    // Display the results in the HTML
     document.getElementById("celsiusResult").innerText =
       "Temperature in Celsius: " + celsius + "°C";
     document.getElementById("fahrenheitResult").innerText =

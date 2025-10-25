@@ -11,10 +11,9 @@ function calculateDistance() {
   let [x1, y1] = point1.split(",").map(Number);
   let [x2, y2] = point2.split(",").map(Number);
 
-  // Calculate the Euclidean distance using the formula
+  // Calculate the Euclidean distance
   let distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-  // Display the result
   document.getElementById("result").innerText =
     "The Euclidean distance between the points is: " + distance.toFixed(2);
 }
